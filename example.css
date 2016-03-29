@@ -1,0 +1,23 @@
+@import '@economist/component-typography';
+@import '@economist/component-palette';
+@import '@economist/component-grid';
+@import '@economist/component-teaser';
+
+a {
+  text-decoration: none;
+}
+
+.teaser {
+  font-family: var(--fontfamily-sans);
+}
+
+html {
+  line-height: var(--text-line-height-sans-on-step-0);
+  font-size: 18px;
+}
+
+body {
+  background: white;
+}
+
+@import './index.css';

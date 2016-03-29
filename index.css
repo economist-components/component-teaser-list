@@ -1,0 +1,14 @@
+@import "@economist/component-teaser";
+
+.teaser-list {
+  font-size: 1rem;
+}
+
+.teaser-list > * {
+  padding: var(--teaserlist-teaser-padding, var(--grid-spacing-donkey)) 0;
+}
+
+.teaser-list + .teaser-list,
+.teaser-list > * + * {
+  border-top: solid 1px var(--teaserlist-border-color, var(--color-london));
+}
