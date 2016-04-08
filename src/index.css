@@ -1,8 +1,10 @@
-@import "@economist/component-teaser";
+@import '@economist/component-teaser';
 
 .teaser-list {
   font-size: 1rem;
 }
+
+/* stylelint-disable selector-no-universal */
 
 .teaser-list > * {
   padding: var(--teaserlist-teaser-padding, var(--grid-spacing-donkey)) 0;
